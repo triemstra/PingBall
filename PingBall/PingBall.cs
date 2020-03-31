@@ -17,6 +17,18 @@ namespace PingBallWorkspace
         Counter _x;
         Counter _y;
 
+        /// <summary>
+        /// /////////////////////////////////////////////////////////////
+        /// </summary>
+        /// <param name="thresholdX"></param>
+        /// <param name="thresholdY"></param>
+        /// <param name="directionX"></param>
+        /// <param name="directionY"></param>
+        /// <param name="startingPositionX"></param>
+        /// <param name="startingPositionY"></param>
+        /// <param name="deltaX"></param>
+        /// <param name="deltaY"></param>
+
         public PingBall(int thresholdX = 500, int thresholdY = 500, int directionX = 1, int directionY= 1, 
                             int startingPositionX = 0, int startingPositionY = 0, int deltaX = 3, int deltaY = 4)
         {
